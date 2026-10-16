@@ -22,7 +22,7 @@ pub const link8d1 = index.link.dlink(8, 1);
 
 pub const xtend4x4 = index.link.xtendn(4, 4);
 
-pub const addr2 = index.lgc.adder.addrn(2);
-pub const addr4 = index.lgc.adder.addrn(4);
-pub const addr8 = index.lgc.adder.addrn(8);
-pub const addr16 = index.lgc.adder.addrn(16);
+pub const l_addr2 = index.lgc.adder.addrn(2);
+pub const l_addr4 = index.lgc.adder.addrn(4);
+pub const l_addr8 = index.lgc.adder.addrn(8);
+pub const l_addr16 = index.lgc.adder.addrn(16);
