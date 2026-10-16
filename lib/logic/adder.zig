@@ -17,7 +17,7 @@ pub fn full(inputs: u3) u2 {
     const b: u1 = @truncate(inputs >> 1);
     const cin: u1 = @truncate(inputs);
 
-    const first = half(m.link2(.{ a, b }));
+    const first = half(m.link2u1(.{ a, b }));
     const s1: u1 = @truncate(first);
     const c1: u1 = @truncate(first >> 1);
 
