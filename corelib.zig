@@ -1,3 +1,4 @@
-pub const gate = @import("env/corelib/gate.zig");
-pub const link = @import("env/corelib/link.zig");
-pub const adder = @import("env/corelib/addr.zig");
+pub const gate = @import("lib/gate.zig");
+pub const link = @import("lib/link.zig");
+pub const adder = @import("lib/addr.zig");
+pub const modules = @import("lib/modules.zig");
