@@ -23,6 +23,10 @@ pub const link8d1 = index.link.dlink(8, 1);
 pub const xtend4x4 = index.link.xtendn(4, 4);
 
 pub const l_addr2 = index.lgc.adder.addrn(2);
+pub const n_addr2 = index.ntv.adder.addrn(2);
 pub const l_addr4 = index.lgc.adder.addrn(4);
+pub const n_addr4 = index.ntv.adder.addrn(4);
 pub const l_addr8 = index.lgc.adder.addrn(8);
+pub const n_addr8 = index.ntv.adder.addrn(8);
 pub const l_addr16 = index.lgc.adder.addrn(16);
+pub const n_addr16 = index.ntv.adder.addrn(16);
