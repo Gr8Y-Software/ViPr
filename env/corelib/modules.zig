@@ -7,5 +7,9 @@ pub const nor2 = index.gate.norn(2);
 pub const xor2 = index.gate.xorn(2);
 pub const xnor2 = index.gate.xnorn(2);
 pub const not1 = index.gate.not;
-
 pub const link2 = index.link.ulink(1, 2);
+pub const link3u1 = index.link.ulink(1, 3);
+pub const link4x2 = index.link.ulink(4, 2);
+pub const link8x1 = index.link.dlink(8, 1);
+pub const xtend4_4 = index.link.xtendn(4, 4);
+pub const addr4 = index.adder.addrn(4);
