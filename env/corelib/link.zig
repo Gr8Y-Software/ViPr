@@ -33,3 +33,11 @@ pub fn dlink(comptime a: u16, comptime b: u16) fn (U(a), U(b)) U(a + b) {
         }
     }.eval;
 }
+
+pub fn xtendn(comptime n: u16, comptime z: u16) fn (U(n)) U(n + z) {
+    return struct {
+        fn eval(x: U(n)) U(n + z) {
+            return x;
+        }
+    }.eval;
+}
