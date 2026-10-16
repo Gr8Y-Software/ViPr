@@ -17,6 +17,7 @@ pub const not1 = index.gate.not;
 pub const link2u1 = index.link.ulink(1, 2);
 pub const link3u1 = index.link.ulink(1, 3);
 pub const link4u2 = index.link.ulink(4, 2);
+
 pub const link8d1 = index.link.dlink(8, 1);
 
 pub const xtend4x4 = index.link.xtendn(4, 4);
