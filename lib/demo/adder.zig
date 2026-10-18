@@ -30,7 +30,7 @@ pub fn full(inputs: u3) u2 {
     return m.link2u1(.{ carry, s2 });
 }
 
-pub fn addrn(comptime w: u16) fn (U(2 * w + 1)) U(w + 1) {
+pub fn adder(comptime w: u16) fn (U(2 * w + 1)) U(w + 1) {
     const in_t = U(2 * w + 1);
     const out_t = U(w + 1);
     const w_t = U(w);
