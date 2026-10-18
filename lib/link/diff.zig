@@ -4,7 +4,7 @@ fn U(comptime n: u16) type {
     return std.meta.Int(.unsigned, n);
 }
 
-pub fn link(comptime a: u16, comptime b: u16) fn (U(a), U(b)) U(a + b) {
+pub fn diff(comptime a: u16, comptime b: u16) fn (U(a), U(b)) U(a + b) {
     const out_t = U(a + b);
 
     return struct {
