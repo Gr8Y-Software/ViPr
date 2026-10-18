@@ -1,5 +1,5 @@
 const std = @import("std");
-const m = @import("../modules.zig");
+const m = @import("../_modules_.zig");
 
 fn U(comptime n: u16) type {
     return std.meta.Int(.unsigned, n);
