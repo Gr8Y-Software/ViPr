@@ -4,7 +4,7 @@ fn U(comptime n: u16) type {
     return std.meta.Int(.unsigned, n);
 }
 
-pub fn stack(
+pub fn same(
     comptime a: comptime_int,
     comptime n: comptime_int,
 ) fn ([n]std.meta.Int(.unsigned, a)) std.meta.Int(.unsigned, a * n) {
